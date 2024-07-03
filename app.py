@@ -12,7 +12,7 @@ os.system(f"git clone https://github.com/Bing-su/adetailer.git /home/xlab-app-ce
 os.system(f"git clone https://github.com/Scholar01/sd-webui-mov2mov.git /home/xlab-app-center/extensions/sd-webui-mov2mov")
 #os.system(f"git clone https://github.com/glucauze/sd-webui-faceswaplab /home/xlab-app-center/extensions/sd-webui-faceswaplab")
 os.system(f"git clone https://github.com/Iyashinouta/sd-model-downloader /home/xlab-app-center/extensions/sd-model-downloader")
-os.system(f"git clone https://gitcode.net/overbill1683-localization-zh_Hans /home/xlab-app-center/extensions-localization-zh_Hans")
+os.system(f"git clone https://gitcode.net/overbill1683/stable-diffusion-webui-localization-zh_Hans /home/xlab-app-center/extensions-localization-zh_Hans")
 os.system(f"git clone https://github.com/SenshiSentou/sd-webui-qic-console /home/xlab-app-center/extensions/sd-webui-qic-console")
 
 #model cn
