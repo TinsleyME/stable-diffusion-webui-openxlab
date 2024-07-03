@@ -118,10 +118,11 @@ class UiSettings:
 
         with gr.Blocks(analytics_enabled=False) as settings_interface:
             with gr.Row():
-                with gr.Column(scale=6):
-                    self.submit = gr.Button(value="Apply settings", variant='primary', elem_id="settings_submit")
+                with gr.Column(scale=12):
+                    restart_gradio = gr.Button(value='', variant='', elem_id="")
                 with gr.Column():
-                    restart_gradio = gr.Button(value='Reload UI', variant='primary', elem_id="settings_restart_gradio")
+                    self.submit = gr.Button(value="", variant='', elem_id="")
+                
 
             self.result = gr.HTML(elem_id="settings_result")
 
@@ -248,12 +249,12 @@ class UiSettings:
                 outputs=[]
             )
 
-            restart_gradio.click(
-                fn=shared.state.request_restart,
-                _js='restart_reload',
-                inputs=[],
-                outputs=[],
-            )
+#            restart_gradio.click(
+#                fn=shared.state.request_restart,
+#                _js='restart_reload',
+#                inputs=[],
+#                outputs=[],
+#            )
 
             def check_file(x):
                 if x is None:
