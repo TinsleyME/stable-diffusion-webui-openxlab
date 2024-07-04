@@ -1,0 +1,14 @@
+#protobuf>=3.20.2
+protobuf
+cython
+ifnude
+#insightface==0.7.3
+insightface
+#onnx>=1.14.0
+#onnxruntime>=1.15.0
+onnx
+onnxruntime
+opencv-python
+pandas
+pydantic
+safetensors

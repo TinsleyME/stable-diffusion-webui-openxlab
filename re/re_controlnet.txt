@@ -1,0 +1,10 @@
+fvcore
+mediapipe
+#opencv-python>=4.8.0
+opencv-python
+svglib
+addict
+yapf
+#albumentations==1.4.3
+albumentations
+matplotlib
