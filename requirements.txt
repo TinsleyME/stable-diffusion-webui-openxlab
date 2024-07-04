@@ -32,3 +32,22 @@ torchsde
 transformers==4.30.2
 pillow-avif-plugin==1.4.3
 xformers
+
+-r ./re/re_sd.txt
+-r ./re/re_sd-npu.txt
+-r ./re/re_sd-versions.txt
+-r ./re/re_controlnet.txt
+-r ./re/re_mov2mov.txt
+-r ./re/re_faceswaplab.txt
+-r ./re/re_faceswaplab-gpu.txt
+-r ./re/re_roop.txt
+-r ./re/re_deforum-dev.txt
+-r ./re/re_deforum.txt
+-r ./re/re_facefusion.txt
+-r ./re/re_facechain.txt
+-r ./re/re_dreambooth_extension.txt
+-r ./re/re_CN-Animation.txt
+-r ./re/re_wav2lip-uhq.txt
+-r ./re/re_image-browsing.txt
+-r ./re/re_segment-anything.txt
+-r ./re/re_lora-scripts.txt
