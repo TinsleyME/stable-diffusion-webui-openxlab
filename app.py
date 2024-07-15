@@ -2,6 +2,7 @@ import os
 import shutil
 os.chdir(f"/home/xlab-app-center")
 os.system(f"git lfs install")
+os.system(f"git lfs update")
 
 os.system(f"git clone https://github.com/mcmonkeyprojects/sd-dynamic-thresholding /home/xlab-app-center/extensions/sd-dynamic-thresholding")
 os.system(f"git clone https://github.com/zanllp/sd-webui-infinite-image-browsing /home/xlab-app-center/extensions/sd-webui-infinite-image-browsing")
