@@ -1,5 +1,6 @@
 import os
 import shutil
+os.system(f"git lfs install")
 os.chdir(f"/home/xlab-app-center")
 
 os.system(f"git clone https://github.com/mcmonkeyprojects/sd-dynamic-thresholding /home/xlab-app-center/extensions/sd-dynamic-thresholding")
