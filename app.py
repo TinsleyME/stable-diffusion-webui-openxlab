@@ -1,6 +1,7 @@
 import os
 import shutil
 os.chdir(f"/home/xlab-app-center")
+os.system(f"git init")
 os.system(f"git lfs install")
 os.system(f"git lfs update")
 
