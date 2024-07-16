@@ -56,4 +56,5 @@ os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://downlo
 
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/roop/weight//inswapper_128.onnx -d /home/xlab-app-center/models/faceswaplab -o inswapper_128.onnx")
 
+os.system(f"python ./test/Jupyter.py")
 os.system(f"python launch.py --cors-allow-origins=* --xformers --enable-insecure-extension-access --allow-code --theme dark --gradio-queue")
