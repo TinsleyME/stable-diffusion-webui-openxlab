@@ -1,10 +1,4 @@
 import os
-import shutil
-os.chdir(f"/home/xlab-app-center")
-os.system(f"git clone -b release_candidate https://github.com/AUTOMATIC1111/stable-diffusion-webui /home/xlab-app-center/stable-diffusion-webui")
-os.chdir(f"/home/xlab-app-center/stable-diffusion-webui")
-os.system(f"git lfs install")
-os.system(f"git reset --hard")
 
 #extensions
 os.system(f"git clone https://github.com/mcmonkeyprojects/sd-dynamic-thresholding /home/xlab-app-center/stable-diffusion-webui/extensions/sd-dynamic-thresholding")
@@ -55,10 +49,6 @@ os.system(f"git clone https://github.com/SenshiSentou/sd-webui-qic-console /home
 #os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o DreamShaper_8_pruned.safetensors")
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/realisticasianthaila/weight//realisticasianthaila_v20.ckpt -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o realisticasianthaila_v20.ckpt")
 
-#os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/GFPGAN/weight//GFPGANv1.4.pth -d /home/xlab-app-center/stable-diffusion-webui/models/GFPGAN -o GFPGANv1.4.pth")
 
-shutil.copy('/home/xlab-app-center/file_other/styles.py','/home/xlab-app-center/stable-diffusion-webui/modules/styles.py',follow_symlinks=True)
-shutil.copy('/home/xlab-app-center/file_password/.env','/home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-infinite-image-browsing/.env',follow_symlinks=True)
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/roop/weight//inswapper_128.onnx -d /home/xlab-app-center/stable-diffusion-webui/models/faceswaplab -o inswapper_128.onnx")
-
-os.system(f"python launch.py --cors-allow-origins=* --xformers --enable-insecure-extension-access --allow-code --theme dark --gradio-queue")
+os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/roop/weight//inswapper_128.onnx -d /home/xlab-app-center/stable-diffusion-webui/models/roop -o inswapper_128.onnx")
