@@ -14,6 +14,7 @@ os.system(f"git clone https://github.com/Iyashinouta/sd-model-downloader /home/x
 os.system(f"git clone https://github.com/Uminosachi/sd-webui-inpaint-anything /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-inpaint-anything")
 os.system(f"git clone https://gitcode.net/overbill1683/stable-diffusion-webui-localization-zh_Hans /home/xlab-app-center/stable-diffusion-webui/extensions/stable-diffusion-webui-localization-zh_Hans")
 os.system(f"git clone https://github.com/SenshiSentou/sd-webui-qic-console /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-qic-console")
+os.system(f"git clone https://github.com/w-e-w/sd-webui-nudenet-nsfw-censor /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-nudenet-nsfw-censor")
 
 #model cn
 #os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/ControlNet/weight//control_instant_id_sdxl.safetensors -d /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-controlnet/models -o control_instant_id_sdxl.safetensors")
