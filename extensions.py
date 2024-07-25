@@ -3,17 +3,17 @@ import os
 #extensions
 os.system(f"git clone https://github.com/mcmonkeyprojects/sd-dynamic-thresholding /home/xlab-app-center/stable-diffusion-webui/extensions/sd-dynamic-thresholding")
 os.system(f"git clone https://github.com/zanllp/sd-webui-infinite-image-browsing /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-infinite-image-browsing")
-os.system(f"git clone https://github.com/Mikubill/sd-webui-controlnet /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-controlnet")
-os.system(f"git clone https://github.com/P2Enjoy/sd-webui-roop-uncensored /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-roop-uncensored")
-os.system(f"git clone https://github.com/djbielejeski/a-person-mask-generator.git /home/xlab-app-center/stable-diffusion-webui/extensions/a-person-mask-generator")
+#os.system(f"git clone https://github.com/Mikubill/sd-webui-controlnet /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-controlnet")
+#os.system(f"git clone https://github.com/P2Enjoy/sd-webui-roop-uncensored /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-roop-uncensored")
+#os.system(f"git clone https://github.com/djbielejeski/a-person-mask-generator.git /home/xlab-app-center/stable-diffusion-webui/extensions/a-person-mask-generator")
 os.system(f"git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete /home/xlab-app-center/stable-diffusion-webui/extensions/a1111-sd-webui-tagcomplete")
 os.system(f"git clone https://github.com/Bing-su/adetailer.git /home/xlab-app-center/stable-diffusion-webui/extensions/adetailer")
-os.system(f"git clone https://github.com/Scholar01/sd-webui-mov2mov.git /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-mov2mov")
-os.system(f"git clone https://github.com/glucauze/sd-webui-faceswaplab /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-faceswaplab")
+#os.system(f"git clone https://github.com/Scholar01/sd-webui-mov2mov.git /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-mov2mov")
+#os.system(f"git clone https://github.com/glucauze/sd-webui-faceswaplab /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-faceswaplab")
 os.system(f"git clone https://github.com/Iyashinouta/sd-model-downloader /home/xlab-app-center/stable-diffusion-webui/extensions/sd-model-downloader")
-os.system(f"git clone https://github.com/Uminosachi/sd-webui-inpaint-anything /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-inpaint-anything")
+#os.system(f"git clone https://github.com/Uminosachi/sd-webui-inpaint-anything /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-inpaint-anything")
 os.system(f"git clone https://gitcode.net/overbill1683/stable-diffusion-webui-localization-zh_Hans /home/xlab-app-center/stable-diffusion-webui/extensions/stable-diffusion-webui-localization-zh_Hans")
-os.system(f"git clone https://github.com/SenshiSentou/sd-webui-qic-console /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-qic-console")
+#os.system(f"git clone https://github.com/SenshiSentou/sd-webui-qic-console /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-qic-console")
 os.system(f"git clone https://github.com/w-e-w/sd-webui-nudenet-nsfw-censor /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-nudenet-nsfw-censor")
 
 #model cn
@@ -51,5 +51,5 @@ os.system(f"git clone https://github.com/w-e-w/sd-webui-nudenet-nsfw-censor /hom
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/realisticasianthaila/weight//realisticasianthaila_v20.ckpt -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o realisticasianthaila_v20.ckpt")
 
 
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/roop/weight//inswapper_128.onnx -d /home/xlab-app-center/stable-diffusion-webui/models/faceswaplab -o inswapper_128.onnx")
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/roop/weight//inswapper_128.onnx -d /home/xlab-app-center/stable-diffusion-webui/models/roop -o inswapper_128.onnx")
+#os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/roop/weight//inswapper_128.onnx -d /home/xlab-app-center/stable-diffusion-webui/models/faceswaplab -o inswapper_128.onnx")
+#os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/roop/weight//inswapper_128.onnx -d /home/xlab-app-center/stable-diffusion-webui/models/roop -o inswapper_128.onnx")
