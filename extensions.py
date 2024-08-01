@@ -48,7 +48,7 @@ os.system(f"git clone https://github.com/w-e-w/sd-webui-nudenet-nsfw-censor /hom
 #Stable-diffusion
 #os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/danbrown/RevAnimated-v1-2-2/resolve/main/rev-animated-v1-2-2.safetensors -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o rev-animated-v1-2-2.safetensors")
 #os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o DreamShaper_8_pruned.safetensors")
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/realisticasianthaila/weight//realisticasianthaila_v20.ckpt -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o realisticasianthaila_v20.ckpt")
+#os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/realisticasianthaila/weight//realisticasianthaila_v20.ckpt -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o realisticasianthaila_v20.ckpt")
 
 
 #os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/Tinsley/roop/weight//inswapper_128.onnx -d /home/xlab-app-center/stable-diffusion-webui/models/faceswaplab -o inswapper_128.onnx")
